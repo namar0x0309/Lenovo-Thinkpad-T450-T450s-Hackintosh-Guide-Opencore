@@ -1,4 +1,5 @@
 # ********************************
+# Maintaining this repo from original author (See commit history)
 # I no longer have that laptop so unfortunately I can no longer offer support for this repo
 # This repo will archived and all open issues are closed
 # The current state of this repo is 100% compatible with macOS Big Sur & previous versions
@@ -117,7 +118,7 @@ Windows Guide:
 9. Select the macrecovery folder in the opencorepkg folder at `/Utilities/macrecovery/`
 10. Click on home > copy path at the top of file explorer
 11. Fire up command prompt and type cd and hit spacebar and paste the path of the macrecovery folder.
-12. Run the command `./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000`
+12. Run the command `./macrecovery.py download -b Mac-E43C1C25D4880AD6 -m 00000000000000000`
 13. This will put some files in the macrecovery folder but we only need BaseSystem.dmg and BaseSystem.chunklist
 14. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton
 15. Download the latest EFI created [here](https://github.com/racka98/Lenovo-Thinkpad-T450-T450s-Hackintosh-Guide-Opencore/releases)
