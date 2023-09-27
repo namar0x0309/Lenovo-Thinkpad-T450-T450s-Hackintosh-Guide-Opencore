@@ -139,7 +139,7 @@ macOS Guide:
 5. Download and extract the [OpenCore Package](https://github.com/acidanthera/OpenCorePkg/releases)
 6. Select the macrecovery folder in the opencorepkg folder at `/Utilities/macrecovery/`
 7. Right click and click "New terminal at folder"
-8. Run the command `./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000` in the terminal window
+8. Run the command `./macrecovery.py download -b Mac-E43C1C25D4880AD6 -m 00000000000000000` in the terminal window
 9. This will put some files in the macrecovery folder but we only need BaseSystem.dmg and BaseSystem.chunklist
 10. Paste both of those files in the `com.apple.recovery.boot` folder in your flash drive partiton
 11. Download the latest EFI created [here](https://github.com/racka98/Lenovo-Thinkpad-T450-T450s-Hackintosh-Guide-Opencore/releases)
